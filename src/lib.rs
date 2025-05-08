@@ -1,12 +1,12 @@
 use borsh::{BorshDeserialize, BorshSerialize};
-use borsh_derive::{BorshDeserialize, BorshSerialize};
+
 use solana_program::{
     entrypoint,
     entrypoint::ProgramResult,
     account_info::{AccountInfo, next_account_info},
     msg,
     pubkey::Pubkey,
-}
+};
 
 use crate::instructions::CounterInstructions;
 
